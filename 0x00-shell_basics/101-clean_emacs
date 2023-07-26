@@ -1,5 +1,2 @@
 #!/bin/bash
-#This is a script to delete all files in the current directory starting with the character ~
-
-#The find commad is used 
-find . -name "*~" -type f -delete
+rm *~

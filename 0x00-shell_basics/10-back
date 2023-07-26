@@ -1,5 +1,2 @@
 #!/bin/bash
-#This is a script that changes the working directory to the previous one 
-
-#The 'cd' command is used to change the directory
-cd $OLDPWD
+cd ~

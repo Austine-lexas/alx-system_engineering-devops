@@ -1,4 +1,2 @@
 #!/bin/bash
-# A script to display the contents list of a directory 
-# The ls command is used to list the contents of the current working directory 
 ls

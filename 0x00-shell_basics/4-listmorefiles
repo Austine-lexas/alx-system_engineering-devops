@@ -1,6 +1,2 @@
 #!/bin/bash
-#This is a script to display the current directory 
-
-#The 'ls' command with the '-la' option is used to do list contents in long format including hidden files 
-
 ls -la

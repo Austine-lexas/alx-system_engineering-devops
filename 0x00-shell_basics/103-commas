@@ -1,1 +1,2 @@
-ls -1Ap | tr '\n' ',' | sed 's/,$/\n/'
+#!/bin/bash
+ls -amvp

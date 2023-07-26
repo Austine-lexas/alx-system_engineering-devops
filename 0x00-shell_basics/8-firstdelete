@@ -1,6 +1,2 @@
 #!/bin/bash 
-#This is a script that will delete the file betty from /tmp/my_first_directory folder
-
-#The rm command is used when deleting files 
-
 rm /tmp/my_first_directory/betty
