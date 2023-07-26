@@ -1,8 +1,2 @@
-#!/bin/bash 
-# This is a script to print the absolute path name 
-
-# The 'pwd' command is used to get the absolute path of the current working directry 
-current_working_dir=$(pwd)
-
-#Print the absolute path name using echo command 
-echo "$current_working_dir"
+#!/bin/bash
+pwd
