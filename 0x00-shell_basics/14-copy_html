@@ -1,0 +1,6 @@
+#!/bin/bash
+# A script to copy all files from the current directory to the parent directory
+#The files are copied only if they do not exist in the parent or are newer versions of the files in the directory
+
+# The 'cp' commad with the '-u' (update)option
+cp -u *.html ../

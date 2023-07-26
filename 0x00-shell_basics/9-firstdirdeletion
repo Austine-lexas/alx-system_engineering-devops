@@ -1,0 +1,5 @@
+#!/bin/bash 
+#This is a script to delete the directory my_first_directory from /tmp
+
+# The rmdir command is used to delete the directory 
+rmdir /tmp/my_first_directory

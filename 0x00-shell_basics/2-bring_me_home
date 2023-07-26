@@ -1,0 +1,5 @@
+#!/bin/bash
+# This is a script to change the current working directory 
+
+#The 'cd' command is used to change the current working directory 
+cd ~

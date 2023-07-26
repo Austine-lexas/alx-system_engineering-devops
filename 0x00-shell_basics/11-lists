@@ -1,0 +1,14 @@
+#!/bin/bash 
+#This is a script to list files in the current directory, the parent directory and the /boot directory 
+
+#List files in the current directory 
+echo "Current Directory:"
+ls -la
+
+#Move to the parent directory and list files there 
+echo -e "\nParent Directory:"
+(cd .. && ls -la)
+
+#List files in the /boot directory 
+echo -e "\n/boot Directory:"
+ls -la /boot

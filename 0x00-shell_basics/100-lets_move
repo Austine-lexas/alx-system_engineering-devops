@@ -1,0 +1,12 @@
+#!/bin/bash 
+#This is a script that moves files that have an uppercase letter to the /tmp/u directory 
+
+#Create the /tmp/u directory if it does not exist
+mkdir -p /tmp/u
+#Loop through the files in the current directory and check if they start with an uppercase letter  
+#if they do, move them to the /tmp/u directory 
+for file in [A-Z]*; do
+	if [ -f "$file" ]; then 
+		mv "$file" /tmp/u/
+	fi
+done

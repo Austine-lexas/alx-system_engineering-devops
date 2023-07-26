@@ -1,0 +1,7 @@
+#!/bin/bash 
+#A script that displays the current directory contents, including hidden files
+#The files are displayed in long format with user and group IDs displayed
+
+#The 'ls' command with the '-lan' option is used
+
+ls -lan

@@ -1,0 +1,5 @@
+#!/bin/bash
+#This script will create a directory in /tmp/.
+
+# The mkdir command is usually used to create the directory
+mkdir /tmp/my_first_directory

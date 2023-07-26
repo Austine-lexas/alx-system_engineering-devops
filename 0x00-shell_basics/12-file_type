@@ -1,0 +1,3 @@
+#!/bin/bash 
+# This is a script to print the type of file named iamafile in the /tmp directory
+file /tmp/iamafile
